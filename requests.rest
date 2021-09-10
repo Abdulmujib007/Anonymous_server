@@ -6,7 +6,7 @@ post http://localhost:4040/api/user
 Content-Type: application/json
 
 {
-  "username":"muhammed",
+  "username":"muhammedss",
   "password":"iluminate"  
 }
 
@@ -17,4 +17,13 @@ Content-Type: application/json
 {
     "username":"Abdulmujib",
     "password":"idapamide"
+}
+###
+get http://localhost:4040/api/messages
+###
+post http://localhost:4040/api/messages/Abdulmuj
+Content-Type: application/json
+
+{
+  "message":"you are a very stupid person"  
 }
